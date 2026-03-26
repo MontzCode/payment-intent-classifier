@@ -1,6 +1,6 @@
 pandas
 scikit-learn
-streamlit
+streamlit==1.40.0
 matplotlib
 seaborn
 joblib
