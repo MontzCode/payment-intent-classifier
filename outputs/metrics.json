@@ -118,5 +118,74 @@
     "7": "Transfer Fee",
     "8": "Transfer Delay",
     "9": "Missing Money"
+  },
+  "test_results": {
+    "accuracy": 0.9447,
+    "weighted_f1": 0.9447,
+    "per_class": {
+      "Card Fee Charge": {
+        "precision": 0.933,
+        "recall": 0.913,
+        "f1": 0.923,
+        "support": 46
+      },
+      "Fraud / Disputed Payment": {
+        "precision": 0.936,
+        "recall": 0.978,
+        "f1": 0.957,
+        "support": 45
+      },
+      "Deposit Delay": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 44
+      },
+      "ATM Partial Withdrawal": {
+        "precision": 1.0,
+        "recall": 0.886,
+        "f1": 0.94,
+        "support": 44
+      },
+      "Cash Withdrawal Charge": {
+        "precision": 0.86,
+        "recall": 1.0,
+        "f1": 0.925,
+        "support": 43
+      },
+      "Duplicate Transaction": {
+        "precision": 0.976,
+        "recall": 0.953,
+        "f1": 0.965,
+        "support": 43
+      },
+      "Declined Withdrawal": {
+        "precision": 0.955,
+        "recall": 0.977,
+        "f1": 0.966,
+        "support": 43
+      },
+      "Transfer Fee": {
+        "precision": 0.902,
+        "recall": 0.881,
+        "f1": 0.892,
+        "support": 42
+      },
+      "Transfer Delay": {
+        "precision": 0.929,
+        "recall": 0.929,
+        "f1": 0.929,
+        "support": 42
+      },
+      "Missing Money": {
+        "precision": 0.975,
+        "recall": 0.929,
+        "f1": 0.951,
+        "support": 42
+      }
+    },
+    "macro_f1": 0.9446,
+    "macro_precision": 0.9466,
+    "macro_recall": 0.9446
   }
 }
