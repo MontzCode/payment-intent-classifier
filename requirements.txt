@@ -4,4 +4,4 @@ streamlit
 matplotlib
 seaborn
 joblib
-numpygit 
+numpy
